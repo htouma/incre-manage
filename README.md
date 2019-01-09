@@ -1,6 +1,6 @@
 # incre-manage
 
-sync via remote git
+Regularly sync via remote git
 
 
 # Usage
@@ -25,6 +25,9 @@ crontab -e
 */30 * * * * /usr/local/bin/cron_push.sh /var/www/html/xxxx
 ```
 
+### log
+`/var/log/git-push.log`
+
 ## dist-server:
 
 ```
@@ -41,4 +44,4 @@ crontab -e
 
 # Author
 
-htouma
+@10ma
